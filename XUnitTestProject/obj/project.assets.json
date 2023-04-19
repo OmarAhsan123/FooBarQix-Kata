@@ -5863,24 +5863,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Users\\qazif\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\CodingKataProblem2\\XUnitTestProject\\XUnitTestProject.csproj",
+      "projectUniqueName": "D:\\DATA\\GitHubRepos\\OmarAhsan123\\FooBarQix-Kata\\XUnitTestProject\\XUnitTestProject.csproj",
       "projectName": "XUnitTestProject",
-      "projectPath": "C:\\Users\\Admin\\source\\repos\\CodingKataProblem2\\XUnitTestProject\\XUnitTestProject.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\source\\repos\\CodingKataProblem2\\XUnitTestProject\\obj\\",
+      "projectPath": "D:\\DATA\\GitHubRepos\\OmarAhsan123\\FooBarQix-Kata\\XUnitTestProject\\XUnitTestProject.csproj",
+      "packagesPath": "C:\\Users\\qazif\\.nuget\\packages\\",
+      "outputPath": "D:\\DATA\\GitHubRepos\\OmarAhsan123\\FooBarQix-Kata\\XUnitTestProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\qazif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
@@ -5892,8 +5898,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\Admin\\source\\repos\\CodingKataProblem2\\CodingKataProblem2\\CodingKataProblem2.csproj": {
-              "projectPath": "C:\\Users\\Admin\\source\\repos\\CodingKataProblem2\\CodingKataProblem2\\CodingKataProblem2.csproj"
+            "D:\\DATA\\GitHubRepos\\OmarAhsan123\\FooBarQix-Kata\\CodingKataProblem2\\CodingKataProblem2.csproj": {
+              "projectPath": "D:\\DATA\\GitHubRepos\\OmarAhsan123\\FooBarQix-Kata\\CodingKataProblem2\\CodingKataProblem2.csproj"
             }
           }
         }
@@ -5912,6 +5918,7 @@
             "version": "[15.9.0, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
